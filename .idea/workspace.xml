@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc37856-5e7f-4325-b56a-3ed72e8c7d3d" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotDog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HotDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="2bc37856-5e7f-4325-b56a-3ed72e8c7d3d" name="変更" comment="[update]１行で犬種、原産国、寿命が表示されるように修正しました。,[change]l22,23コメントアウトで記載しているんですがHotDogクラスのdetailメソッドを使用して書くと条件分岐が必要なくなり新たに条件分岐の要素を足す必要が出てきました。,[add]Scannerクラスを使って小型犬、中型犬、大型犬と犬のサイズを入力してもらうとおすすめの犬がそのサイズに合わせて出力されるようなものに変更しました。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +57,29 @@
       <option name="presentableId" value="Default" />
       <updated>1689340374811</updated>
     </task>
+    <task id="LOCAL-00001" summary="[update]１行で犬種、原産国、寿命が表示されるように修正しました。,[change]l22,23コメントアウトで記載しているんですがHotDogクラスのdetailメソッドを使用して書くと条件分岐が必要なくなり新たに条件分岐の要素を足す必要が出てきました。,[add]Scannerクラスを使って小型犬、中型犬、大型犬と犬のサイズを入力してもらうとおすすめの犬がそのサイズに合わせて出力されるようなものに変更しました。">
+      <created>1689344105356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689344105356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[update]１行で犬種、原産国、寿命が表示されるように修正しました。,[change]l22,23コメントアウトで記載しているんですがHotDogクラスのdetailメソッドを使用して書くと条件分岐が必要なくなり新たに条件分岐の要素を足す必要が出てきました。,[add]Scannerクラスを使って小型犬、中型犬、大型犬と犬のサイズを入力してもらうとおすすめの犬がそのサイズに合わせて出力されるようなものに変更しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="[update]１行で犬種、原産国、寿命が表示されるように修正しました。,[change]l22,23コメントアウトで記載しているんですがHotDogクラスのdetailメソッドを使用して書くと条件分岐が必要なくなり新たに条件分岐の要素を足す必要が出てきました。,[add]Scannerクラスを使って小型犬、中型犬、大型犬と犬のサイズを入力してもらうとおすすめの犬がそのサイズに合わせて出力されるようなものに変更しました。" />
   </component>
 </project>
