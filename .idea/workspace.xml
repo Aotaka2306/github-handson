@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc37856-5e7f-4325-b56a-3ed72e8c7d3d" name="変更" comment="[update]１行で犬種、原産国、寿命が表示されるように修正しました。,[change]l22,23コメントアウトで記載しているんですがHotDogクラスのdetailメソッドを使用して書くと条件分岐が必要なくなり新たに条件分岐の要素を足す必要が出てきました。,[add]Scannerクラスを使って小型犬、中型犬、大型犬と犬のサイズを入力してもらうとおすすめの犬がそのサイズに合わせて出力されるようなものに変更しました。">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HotDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HotDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="2bc37856-5e7f-4325-b56a-3ed72e8c7d3d" name="変更" comment="[update]条件分岐をswitch文に変更。&#10;&#10;・無駄なfor文の削除。&#10;・意図しない入力の際へのメッセージ追加。&#10;・detail()の引数が不要の為削除。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689344105356</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[update]条件分岐をswitch文に変更。&#10;&#10;・無駄なfor文の削除。&#10;・意図しない入力の際へのメッセージ追加。&#10;・detail()の引数が不要の為削除。">
+      <created>1689398112977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689398112978</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,7 +85,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -90,7 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[update]１行で犬種、原産国、寿命が表示されるように修正しました。,[change]l22,23コメントアウトで記載しているんですがHotDogクラスのdetailメソッドを使用して書くと条件分岐が必要なくなり新たに条件分岐の要素を足す必要が出てきました。,[add]Scannerクラスを使って小型犬、中型犬、大型犬と犬のサイズを入力してもらうとおすすめの犬がそのサイズに合わせて出力されるようなものに変更しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="[update]１行で犬種、原産国、寿命が表示されるように修正しました。,[change]l22,23コメントアウトで記載しているんですがHotDogクラスのdetailメソッドを使用して書くと条件分岐が必要なくなり新たに条件分岐の要素を足す必要が出てきました。,[add]Scannerクラスを使って小型犬、中型犬、大型犬と犬のサイズを入力してもらうとおすすめの犬がそのサイズに合わせて出力されるようなものに変更しました。" />
+    <MESSAGE value="[update]条件分岐をswitch文に変更。&#10;&#10;・無駄なfor文の削除。&#10;・意図しない入力の際へのメッセージ追加。&#10;・detail()の引数が不要の為削除。" />
+    <option name="LAST_COMMIT_MESSAGE" value="[update]条件分岐をswitch文に変更。&#10;&#10;・無駄なfor文の削除。&#10;・意図しない入力の際へのメッセージ追加。&#10;・detail()の引数が不要の為削除。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
