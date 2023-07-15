@@ -17,7 +17,7 @@ public class HotDog {
     public String getSpan(){
         return span;
     }
-    public String detail(int i){
+    public String detail(){
         return "あなたにオススメの犬はこれだ！ 犬種：" + this.name + ",原産国：" + this.origin + ",寿命:" + this.span;
     }
 }
